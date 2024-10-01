@@ -1,0 +1,55 @@
+
+      @font-face {
+        font-family: "Amatic SC";
+        src: url("../font/AmaticSC-Regular.ttf");
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Amatic SC", sans-serif;
+      }
+      .resep {
+        display: none;
+      }
+      .bgimg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("/Assets/bg.jpg");
+        min-height: 90%;
+      }
+      .resep-image {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+      }
+      .order-button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+      }
+      .order-button:hover {
+        background-color: #45a049;
+      }
+      .kategori {
+        font-size: 14px;
+        color: #666;
+        margin-top: 5px;
+      }
+      .text-grey {
+        font-size: 22px; 
+      }

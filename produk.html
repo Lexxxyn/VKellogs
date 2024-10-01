@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VKELLOG'S</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/gaya.css" />
+    <link rel="stylesheet" href="css/produk.css" />
+  </head>
+  <body>
+    <div class="top hide-small">
+      <div class="bar xlarge black opacity hover-opacity-off" id="myNavbar">
+        <a href="index.html" class="bar-item button">BERANDA</a>
+        <a href="produk.html" class="bar-item button">PRODUK</a>
+        <a href="resep.html" class="bar-item button">RESEP</a>
+        <a href="about.html" class="bar-item button">TENTANG</a>
+        <a href="kontak.html" class="bar-item button">KONTAK</a>
+      </div>
+    </div>
+
+    <div class="container black padding-64 xxlarge" id="produk">
+      <div class="content">
+        <h1 class="center jumbo" style="margin-bottom: 64px">PRODUK</h1>
+        <div class="row center border border-dark-grey">
+          <a href="javascript:void(0)" onclick="openProduk('semua');" id="semuaLink">
+            <div class="col s4 tablink padding-large hover-red">SEMUA</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openProduk('dewasa');">
+            <div class="col s4 tablink padding-large hover-red">DEWASA</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openProduk('anak-anak');">
+            <div class="col s4 tablink padding-large hover-red">ANAK-ANAK</div>
+          </a>
+        </div>
+
+        <div id="dewasa" class="container produk padding-32 white" data-kategori="dewasa">
+          <h1><b>Vkellog's Chocolate Vanilla</b> <span class="right tag dark-grey round">$4.99</span></h1>
+          <p class="kategori">Kategori: Dewasa</p>
+          <img src="../Assets/vkellog's chocolate vanilla.jpeg" alt="Margherita" class="product-image" />
+          <button class="order-button">Pesan Sekarang</button>
+          <hr />
+          <h1><b>Vkellog's Corn Flakes</b> <span class="right tag dark-grey round">$3.99</span></h1>
+          <p class="kategori">Kategori: Dewasa</p>
+          <img src="../Assets/cornflakesssss.jpg" alt="Corn Flakes" class="product-image" />
+          <button class="order-button">Pesan Sekarang</button>
+          <hr />
+        </div>
+
+        <div id="anak-anak" class="container produk padding-32 white" data-kategori="anak-anak">
+          <h1><b>Vkellog's Chocolate Mix</b><span class="right tag dark-grey round">$4.99</span></h1>
+          <p class="kategori">Kategori: Anak-Anak</p>
+          <img src="../Assets/vkellog's chocolate.png" alt="Choco Pops" class="product-image" />
+          <button class="order-button">Pesan Sekarang</button>
+          <hr />
+          <h1><b>Vkellog's Vanilla Split</b><span class="right tag dark-grey round">$5.99</span></h1>
+          <p class="kategori">Kategori: Anak-Anak</p>
+          <img src="../Assets/Original Flavour.jpg" alt="Frosties" class="product-image" />
+          <button class="order-button">Pesan Sekarang</button>
+          <hr />
+        </div>
+        <br />
+      </div>
+    </div>
+
+    <footer class="center black padding-48 xxlarge">
+      <p>Copyrignt <a href="index.html" title="W3.CSS" class="hover-text-green">VKELLOG'S</a></p>
+    </footer>
+    <script src="js/produk.js"></script>
+  </body>
+</html>

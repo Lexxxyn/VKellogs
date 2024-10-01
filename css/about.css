@@ -1,0 +1,37 @@
+
+      @font-face {
+        font-family: "Amatic SC";
+        src: url("../font/AmaticSC-Regular.ttf");
+      }
+      body,
+      html {
+        height: 100%;
+        background-color: #f6f6f6;
+      }
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Amatic SC", sans-serif;
+      }
+      .container {
+        padding: 64px;
+      }
+      .content {
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .content h1 {
+        color: #333;
+      }
+      .content p {
+        color: #000000;
+        line-height: 1.6;
+        font-size: 20px;
+        font-weight: bold;
+      }
